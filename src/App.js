@@ -124,9 +124,9 @@ function App() {
   </div>
 </div>
 <div className='bg-blue-500  mx-auto py-16 px-[2rem] grid lg:grid-cols-3 gap-8 text-white'>
-      <div>
-        <h1 className='w-full text-3xl font-bold '>Fit Fusion.</h1>
-        <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
+      <div className='cursor-pointer hover:'>
+        <h1 className='w-full text-3xl font-bold hover:scale-105 duration-500'>Fit Fusion.</h1>
+        <p className='py-4 hover:scale-105 duration-500'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
         <div className='flex justify-between md:w-[75%] my-6'>
           {/* <FaFacebookSquare size={30} />
           <FaInstagram size={30} />
@@ -135,40 +135,40 @@ function App() {
         </div>
       </div>
       <div className='lg:col-span-2 md:flex justify-between mt-6'>
-        <div>
+        <div className='cursor-pointer '>
           <h6 className='font-medium my-5 md:my-0 underline'>Solutions</h6>
           <ul>
-            <li className='py-2 text-sm'>Analytics</li>
-            <li className='py-2 text-sm'>Marketing</li>
-            <li className='py-2 text-sm'>Commerce</li>
-            <li className='py-2 text-sm'>Insights</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>Analytics</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>Marketing</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>Commerce</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>Insights</li>
           </ul>
         </div>
-        <div>
+        <div className='cursor-pointer'>
           <h6 className='font-medium my-5 md:my-0 underline'>Support</h6>
           <ul>
-            <li className='py-2 text-sm'>Pricing</li>
-            <li className='py-2 text-sm'>Documentation</li>
-            <li className='py-2 text-sm'>Guides</li>
-            <li className='py-2 text-sm'>API Status</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>Pricing</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>Documentation</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>Guides</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>API Status</li>
           </ul>
         </div>
-        <div>
+        <div className='cursor-pointer'>
           <h6 className='font-medium my-5 md:my-0 underline'>Company</h6>
           <ul>
-            <li className='py-2 text-sm'>About</li>
-            <li className='py-2 text-sm'>Blog</li>
-            <li className='py-2 text-sm'>Jobs</li>
-            <li className='py-2 text-sm'>Press</li>
-            <li className='py-2 text-sm'>Careers</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>About</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>Blog</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>Jobs</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>Press</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>Careers</li>
           </ul>
         </div>
-        <div>
+        <div className='cursor-pointer'>
           <h6 className='font-medium my-5 md:my-0 underline'>Legal</h6>
           <ul>
-            <li className='py-2 text-sm'>Claim</li>
-            <li className='py-2 text-sm'>Policy</li>
-            <li className='py-2 text-sm'>Terms</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>Claim</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>Policy</li>
+            <li className='py-2 text-sm hover:scale-105 duration-500'>Terms</li>
           </ul>
         </div>
       </div>
